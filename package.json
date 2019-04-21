@@ -1,0 +1,36 @@
+{
+  "name": "js-ipfs-crypto",
+  "version": "0.0.1",
+  "description": "A Javascript library for the IPFS HTTP API, with a layer of Crypto functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cluster-labs/ipfs-http-crypto.git"
+  },
+  "keywords": [
+    "ipfs",
+    "crypto",
+    "aes",
+    "rsa",
+    "ecc",
+    "js-ipfs",
+    "http"
+  ],
+  "author": "vasa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cluster-labs/ipfs-http-crypto/issues"
+  },
+  "homepage": "https://github.com/cluster-labs/ipfs-http-crypto#readme",
+  "dependencies": {
+    "eccrypto": "^1.1.1",
+    "ipfs-http-client": "^30.1.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
