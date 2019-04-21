@@ -1,6 +1,6 @@
 {
   "name": "ipfs-http-crypto",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Javascript library for the IPFS HTTP API, with a layer of Crypto functions.",
   "main": "index.js",
   "scripts": {
