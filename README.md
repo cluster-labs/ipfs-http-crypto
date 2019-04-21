@@ -16,6 +16,8 @@ We support both the Current and Active LTS versions of Node.js. Please see [node
 ### How to Use
 This library supports same function signatures as of [ipfs-http-client](https://github.com/ipfs/js-ipfs-http-client).
 
+***Right now, ONLY MFS(Mutable file system) has the crypto functionality enabled. We are working to cover other APIs as soon as possible.***
+
 To use the crypto layer of the library we pass the neccessary paramters to perform cryptographic operations, with the options parameter.
 
 See the [test](/test) folder to see how to pass parameters.
